@@ -1,0 +1,22 @@
+# 本地编译二进制
+*.exe
+bin/
+
+.DS_Store
+*.log
+
+# 套件构建默认输出目录
+tenant-kit/
+
+**/logs/
+
+**/node_modules/
+node_modules/
+**/dist/
+dist/
+.zcode/
+
+# ui/dist 仅保留占位 .gitkeep（构建产物不入库）
+!ui/dist/
+ui/dist/*
+!ui/dist/.gitkeep
